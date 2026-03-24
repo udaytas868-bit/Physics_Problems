@@ -11,7 +11,7 @@ $$F(x) = -kx$$
 Substituting this into the acceleration formula:
 $$m \frac{d^2x}{dt^2} = -kx \implies \frac{d^2x}{dt^2} + \frac{k}{m}x = 0$$
 
-> **Student Note:** This is the standard differential equation for **Simple Harmonic Motion (SHM)**. It shows that the acceleration is always proportional to the displacement but in the opposite direction.
+> ** Note:** This is the standard differential equation for **Simple Harmonic Motion (SHM)**. It shows that the acceleration is always proportional to the displacement but in the opposite direction.
 
 ---
 
