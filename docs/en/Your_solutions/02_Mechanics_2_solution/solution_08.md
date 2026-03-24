@@ -48,4 +48,3 @@ If we were to plot these functions:
 1. **Force $F(x)$**: This would be a straight line with a negative slope ($k$). It always pulls the particle back to $x=0$.
 2. **Potential Energy $U(x)$**: This is a parabola. It shows that energy is stored regardless of whether the displacement is positive or negative (stretching or compressing).
 
-> **Personal Reflection:** This analysis is crucial for understanding oscillators. The "work-energy" theorem here shows exactly how mechanical energy is stored in a system like a spring.
