@@ -1,12 +1,15 @@
-# Problem 5: Relative Velocity
+## 5. Relative Velocity: River Crossing Analysis
 
-## Solution
-Let $v_r = 2 \text{ m/s}$ (river flow East) and $v_{b/r} = 5 \text{ m/s}$ (boat speed relative to water).
-To move directly North, the Eastward component of the boat must cancel the river:
-$$v_{b/r} \sin\theta = v_r \implies 5 \sin\theta = 2 \implies \sin\theta = 0.4$$
-$$\theta = \arcsin(0.4) \approx 23.58^\circ \text{ West of North}$$
+### Step 1: Defining the Velocity Vectors
+* River Flow ($v_r$): $2 \text{ m/s}$ (East)
+* Boat Speed in Still Water ($v_b$): $5 \text{ m/s}$
 
-The resultant velocity is:
-$$v_{res} = \sqrt{5^2 - 2^2} = \sqrt{21} \approx 4.58 \text{ m/s}$$
-Time to cross ($W=200\text{m}$):
-$$t = \frac{200}{\sqrt{21}} \approx 43.64 \text{ s}$$
+### Step 2: Determining the Heading Angle
+To move directly North, the boat's horizontal component must perfectly counteract the river's flow:
+$$v_b \sin\theta = v_r \implies 5 \sin\theta = 2$$
+$$\sin\theta = 0.4 \implies \theta = \arcsin(0.4) \approx 23.6^\circ \text{ West of North}$$
+
+### Step 3: Crossing Time Calculation
+The effective velocity across the river (Northward) is:
+$$v_{North} = v_b \cos\theta = 5 \cos(23.6^\circ) \approx 4.58 \text{ m/s}$$
+$$t = \frac{\text{Width}}{v_{North}} = \frac{200}{4.58} \approx 43.7 \text{ s}$$
