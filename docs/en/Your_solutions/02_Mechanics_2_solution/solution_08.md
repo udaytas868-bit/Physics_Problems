@@ -11,8 +11,6 @@ $$F(x) = -kx$$
 Substituting this into the acceleration formula:
 $$m \frac{d^2x}{dt^2} = -kx \implies \frac{d^2x}{dt^2} + \frac{k}{m}x = 0$$
 
-> **Student Note:** This is the standard differential equation for **Simple Harmonic Motion (SHM)**. It shows that the acceleration is always proportional to the displacement but in the opposite direction.
-
 ---
 
 ## Step 2: Calculation of Work Done ($W$)
@@ -23,7 +21,6 @@ Substituting the force function:
 $$W = \int_{0}^{x_0} (-kx) \, dx = -k \left[ \frac{1}{2}x^2 \right]_{0}^{x_0}$$
 **Result:** $W = -\frac{1}{2}kx_0^2$
 
-*Note: The work is negative because the force acts against the direction of the displacement.*
 
 ---
 
