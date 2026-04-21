@@ -46,5 +46,3 @@ $$x = \frac{(2n + 1)\lambda}{4}$$
 
 ---
 
-## Discussion
-In this resulting wave, the energy does not travel through the medium but is stored in the oscillations. The points between the nodes that reach maximum displacement are called **Antinodes**, which occur when $\cos(kx) = \pm 1$.
